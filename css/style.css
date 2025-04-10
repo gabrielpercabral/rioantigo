@@ -1,0 +1,25 @@
+header{
+
+    text-align: center;
+    border-style:inset
+
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(92, 80, 59);
+}
+
+p::first-letter{
+    color: rgb(48, 42, 31);
+}
+
+#precabralino, #imperial, #republicano, #colonial{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(105, 79, 58)
+
+}
+
+.curiosidades-pequena {
+    font-size: 12px;
+}
