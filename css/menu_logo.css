@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0 auto;
     padding: 0;
@@ -14,19 +15,25 @@
     width: 940px;
 }
 
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
 .logo {
     padding-left: 20px;
 }
 
 .hmenu {
     position: absolute;
-
-
+    top: 55px;
+    right: 0px;
 }
 
 .hmenu ul li {
     display: inline;
-    margin: 0 0  70px;
+    margin: 0 0 0;
 }
 
 .hmenu ul li a {
@@ -37,3 +44,43 @@
     margin-right: 30px;
 }
 
+.hmenu ul li a:hover {
+    color: rgb(73, 65, 53);
+    border-bottom: 1px solid rgb(216, 196, 166);
+}
+
+.titulo-principal {
+    font-family: "Arima";
+    font-style: italic;
+    color: rgb(73, 65, 53);
+    margin: 20px 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(73, 65, 53);
+}
+
+.cabecalho-sessao {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(241, 223, 213);
+    margin: 0 0 10px 0
+}
+
+.titulo-curiosidades {
+    font-family:"Roboto Mono";
+    font-style: bold;
+    color: rgb(87, 83, 59);
+    font-size: 18px;
+}
+
+.conteudo-secao {
+    padding: 10px 0;
+}
+
+.conteudo-secao p {
+    padding: 5px 0 5px 0 ; 
+    text-align: justify}
+    
+h3 {
+    font-size: 22px;
+}
