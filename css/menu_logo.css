@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* box sizing especifica altura e largura */
+
+.cabecalho {
+    background-color:  rgb(139, 123, 99);
+    padding: 10px 0;
+    width: 940px;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.hmenu {
+    position: absolute;
+
+
+}
+
+.hmenu ul li {
+    display: inline;
+    margin: 0 0  70px;
+}
+
+.hmenu ul li a {
+    color: rgb(216, 196, 166);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
