@@ -9,6 +9,10 @@
 
 /* box sizing especifica altura e largura */
 
+.conteudo-principal, .rodape-principal {
+    width: 940px;
+}
+
 .cabecalho {
     background-color:  rgb(139, 123, 99);
     padding: 10px 0;
@@ -29,6 +33,7 @@
     position: absolute;
     top: 55px;
     right: 0px;
+    font-size: 24px;
 }
 
 .hmenu ul li {
@@ -79,8 +84,80 @@
 
 .conteudo-secao p {
     padding: 5px 0 5px 0 ; 
-    text-align: justify}
+    text-align: justify
+}
     
 h3 {
     font-size: 22px;
+}
+
+.sobre-rio-antigo {
+    margin: 20px, 30px 0;
+    padding: 10px 0;
+    box-sizing: content-box;
+    font-style: italic, 'Arima';
+
+}
+
+.sobre-rio-antigo h3 {
+    padding: 10px 0;
+    font-family: italic, 'Arima';
+    font-size: 20px;
+    color: rgb(87, 83, 59);
+}
+
+.sobre-rio-antigo p {
+    text-align: justify;
+}
+
+.conteudo-rio-antigo-cabecalho {
+    font-family: 'Arima', cursive;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.conteudo-rio-antigo-cabecalho th {
+    font-style: italic, "Arima";
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.conteudo-rio-antigo {
+    border: 1px solid;
+    border-radius: 2%;
+    width: 95%;
+    font-size: 20px;
+
+}
+
+.conteudo-rio-antigo:hover {
+    border: 4px solid rgb(73, 65, 53);
+}
+
+.conteudo-rio-antigo h3, .conteudo-rio-antigo p {
+    font-family: 'Dosis', 'sans-serif';
+}
+
+.conteudo-rio-antigo h3 {
+    color:rgb(49, 39, 33);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.conteudo-rio-antigo p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.conteudo-rio-antigo-img {
+    align-content: center;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.conteudo-rio-antigo-img img {
+    width: 270px;
 }
